@@ -161,7 +161,7 @@ function sumArray(testArray){ //eslint-disable-line
 }
 
 // Here is the test for sumArray(); uncomment it to run it
-testSumArray(testArray);
+//testSumArray(testArray);
 
 
 /////////////////////////////////////
@@ -190,8 +190,16 @@ new branch for your work on the next question!
 
 // Write your code here
 function multiplyArray(testArray){ //eslint-disable-line
+    
+    multiply(testArray);{ //eslint-disable-line
+        var totalArr = x*y;}
+    
+        multiply(totalArr,z);{ //eslint-disable-line
+        var finalArr = totalArr*z;}
+    
+        return[finalArr, 'The numbers ' + x + ',' + y + ',' + z + ' have a product of ' + finalArr + '.'];
 
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyArray(2,3,4);
+testMultiplyArray(2,3,4);
