@@ -59,7 +59,9 @@ function multiply(a,b){ //eslint-disable-line
     var total = a*b;
     return [total, 'The product of ' + a + ' and ' + b + ' is ' + total + '.'];
 
+
 }
+
 
 // Here is the test for multiply(); uncomment it to run it
 testMultiply(5,9)
@@ -96,11 +98,25 @@ new branch for your work on the next question!
 
 // Write your code here
 function sumAndMultiply(a,b,c){ //eslint-disable-line
+    sum(a,b);{ //eslint-disable-line
+        var totalSum = a + b; //sum to add with c
+    }
+    
+    sum(totalSum,c);{ //eslint-disable-line
+        var finalSum = totalSum + c;
+        //return [finalSum, + a + ' and ' + b + ' and ' + c + ' sum to ' + finalSum + '.'];//total of a+b+c
+    }
 
+    multiply(a,b);{ //eslint-disable-line
+        var totalMul = a*b;}
+    multiply(totalMul,c);{ //eslint-disable-line
+        var finalMul = totalMul*c;
+    }
+    
+    return [finalSum, finalMul, + a + ' and ' + b + ' and ' + c + ' sum to ' + finalSum + '.', 'The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + finalMul + '.'];//final expression
 }
-
 // Here is the test for sumAndMultiply(); uncomment it to run it
-// testSumAndMultiply(4,7,5);
+testSumAndMultiply(4,7,5);
 
 
 /////////////////////////////////////
