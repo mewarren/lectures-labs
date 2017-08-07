@@ -1,65 +1,22 @@
 'use strict';
 
-/* 
-    zoo animal model
-
-    properties?
-    name
-    species
-    food
-
-    methods?
-    addToZoo()
-    askForFood()
-    tellJokes()
-
-    zooKeeper
-    addToZoo()
+/*
+    car
+    salesperson
 */
-var food = 'cake';
 
-var zebra1 = {
-    name: 'Zeus',
-    species: 'zebra',
-    food: 'grass',
-    askForFood: function () {
-        alert( 'Give me some ' + this.food ); // this.food 'grass'
-    },
+var car = {
+    make: 'Fiat',
+    model: '500',
+    color: 'red',
+    year: '2016',
+    value: '$18,000',
     addToDom: function () {
-        var zebraList = document.getElementById( 'zebra' );
-        var newZebra = document.createElement( 'li' );
-        newZebra.innerHTML = this.name;
-        zebraList.appendChild( newZebra );
+        var lotOne = document.getElementById( 'lot-one' );
+        var carDiv = document.createElement( 'div' );
+        carDiv.innerHTML = '<h1>' + this.make + ' ' + this.model + '</h1>';
+        lotOne.appendChild( carDiv );
     }
 };
 
-console.log( 'zebra1 has the keys: ' + Object.keys( zebra1 ) );
-
-var lion1 = {
-    name: 'Fred',
-    species: 'lion',
-    food: 'deer',
-    askForFood: function () {
-        alert( 'Give me some ' + this.food );
-    }
-};
-
-var penguin1 = {
-    name: 'Lisa',
-    species: 'penguin',
-    food: 'deer',
-    askForFood: function () {
-        alert( 'Give me some ' + this.food );
-    }
-};
-
-var redPanda1 = {
-    name: 'Scarlet',
-    species: 'red-panda',
-    food: 'bamboo',
-    askForFood: function () {
-        alert( 'Give me some ' + this.food );
-    }
-};
-
-
+car.addToDom();
