@@ -12,6 +12,10 @@
 
 ### Announcements
 * Weekly survey?
+* Alumni available for tutoring!
+* Events around town!
+    * [PDXWIT Summer Soiree](https://www.eventbrite.com/e/women-tech-third-annual-summer-soiree-tickets-35269822990) - next Thursday. 
+    * [Calagator](http://calagator.org/)
 * 1 on 1's w/ SJ: Tuesday - Thursday.
 
 ## Learning Objectives
