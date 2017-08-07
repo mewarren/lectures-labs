@@ -1,4 +1,4 @@
-#Problem domain:
+# Problem domain:
 Your friend Pat from Seattle combined two signature Seattle icons, salmon and coffee, and started a super successful business. Pat developed a recipe for a coffee-time confection called Salmon Cookies. His shops are doing so well in Seattle that he wanted to expand to Portland.
 
 The cookies are made into the shape of a salmon, and are actually made with salmon (though the fish is ground up so fine that you can't even taste it!).They are the ideal match for a steaming cup of coffee on a PNW morning. Or PNW afternoon... whatever. Portland tourists will go gaga for them, locals will begrudgingly fall in love with them, and Pat will make a ton more money.
