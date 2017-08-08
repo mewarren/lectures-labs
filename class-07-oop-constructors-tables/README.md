@@ -30,6 +30,8 @@
 - Dynamically build an HTML table in the DOM using JavaScript.
 
 ## Notes
+* Code Review
+    * [Christina's Cookie Stand - PR](https://github.com/ChristinaMills/cookie_stand/pull/2)
 * Object Oriented Programming
     * What is it and why use it?
         * OOP v Procedural Programming
