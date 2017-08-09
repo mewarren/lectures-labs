@@ -42,13 +42,15 @@
 
 ## Notes
 * Review!
-    * Arrays and for loops and objects oh my
-    * The DOM
     * Git flow, GitHub
         - [interactive visualization](http://learngitbranching.js.org/?NODEMO)
         - [visual example](http://gitgraphjs.com/examples/index.html) of commiting, branching, merging
         - [another visual aide](https://onlywei.github.io/explain-git-with-d3/)
+    * Arrays and for loops and objects oh my
+    * The DOM
     * What else?
+        * HTML tables
+        * salmon cookies stretch goal: how many cookie tossers?
 
 <hr></hr>
 
