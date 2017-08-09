@@ -19,6 +19,13 @@
     - Lab will be catch up/refactoring time
     - Tomorrow will pick up w/ events and forms
     - Friday will be CSS + talking about final projects
+* Check ins today:
+    - David
+    - Morgan
+    - Devanshu
+    - Janet
+    - Shane
+    - Frank
 
 ## Learning Objectives
 - Review
@@ -28,6 +35,7 @@
 - More organized lectures
     - better opening/closing sections, reiterate takeaways
     - map of topics? the day's README has general notes/outline
+        - go over lessons at beginning/end of week
 - More lab instructions
     - if I don't show you an example of today's lab, yell at me
     - we're here for clarification
