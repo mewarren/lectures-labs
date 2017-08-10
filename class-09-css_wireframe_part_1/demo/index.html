@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Questions</title>
+        <style>
+            nav li {
+                display: inline-block;
+                font-size: .7rem;
+                cursor: pointer;
+                padding: 10px;
+            }
+
+            nav li:before {
+                content: ' || '
+            }
+
+            nav li:hover {
+                background-color: lightblue;
+            }
+
+            section, form {
+                margin: 0 auto;
+                width: 50%;
+                min-width: 500px;
+            }
+
+            input {
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul id="menu">
+                <li>Questions</li>
+                <li>New Question</li>
+                <li>Answers</li>
+                <li>Old Questions</li>
+                <li>Exisistential Questions</li>
+            </ul>
+        </nav>
+
+        <section>
+            <ol id="questions"></ol>
+            <sup>* indicates a required question</sup>
+        </section>
+
+        <hr>
+        <!-- TODO build a form to add a new question  -->
+        <form id="new-question" action="demo.html">
+            <fieldset>
+                <legend>New Question</legend>
+
+                <label for="question">Question Text</label>
+                <input type="text" name="question" id="question" >
+                
+                <label for="answer">Answer Text</label>
+                <input type="text" name="answer" id="answer">
+
+                <label for="required">Required</label>
+                <input type="radio" name="required" id="required" value="required">
+                
+                <label for="not-required">Not required</label>
+                <input type="radio" name="required" id="not-required" value="not-required">
+
+            </fieldset>
+
+            <button type="submit">Post Question</button>
+        </form>
+        
+        <script src="app.js"></script>
+    </body>
+</html>
