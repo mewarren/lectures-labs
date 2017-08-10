@@ -20,6 +20,8 @@
 - Update the DOM using user input.
 
 ## Notes
+0. Code Review
+    * [Devanshu PR](https://github.com/Devanshu1/cookie-stand/pull/1)
 1. HTML forms
     * Use form elements to collect/capture information from a user
         * text data, choices, actions
