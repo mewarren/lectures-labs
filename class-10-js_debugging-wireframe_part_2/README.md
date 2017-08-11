@@ -1,5 +1,5 @@
-## **Week 2: Working with the DOM**
-## Class 10: JS Debugging and More CSS Layout
+# **Week 2: Working with the DOM**
+# Class 10: JS Debugging and More CSS Layout
 
 [Schedule](#schedule) | [Announcements](#announcements) | [Objectives](#learning-objectives) | [Notes](#notes) | [Readings](#readings)
 
