@@ -1,16 +1,13 @@
-img {
-  width: 95%;
-}
-
 * {
   color: blue;
 }
 
 ul {
-list-style-type: none;
+  list-style-type: none;
 }
 
 img {
+  width: 95%;
   vertical-align: middle;
   max-height: 100px;
   max-width: 100px;
