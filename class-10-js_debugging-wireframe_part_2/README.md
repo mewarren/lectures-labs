@@ -21,7 +21,7 @@
         3. instructor approval
 * Project week in a week!!!
     * 4th week = no lectures, no labs, all project work
-    * 4 teams: 3,3,3,4
+    * 4 teams: [3,3,3,4]
     * Think of 2-3 ideas, pitch to SJ & TA's Friday afternoon
     * Basic requirements:
         * 3 pages
@@ -61,11 +61,6 @@
     * adding third party css libraries
         * [skeleton](http://getskeleton.com/)
         * [normalize](https://necolas.github.io/normalize.css/) (CSS Reset)
-    * possible values for properties
-        * sizes
-        * colors
-        * position
-        * display
     * fun image properties
         * [background-blend-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/background-blend-mode) (for background images)
         * [filter](https://css-tricks.com/almanac/properties/f/filter/)
