@@ -6,5 +6,9 @@ headerEle.addEventListener( 'click', videoHandler );
 
 function videoHandler ( event ) {
     var video = document.querySelector( 'video' );
-    video.play();
+    if ( video.paused ) {
+        video.play();
+    } else {
+        video.pause();
+    }
 }

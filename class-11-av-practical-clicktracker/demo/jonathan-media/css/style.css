@@ -26,6 +26,7 @@ video {
   min-height: 800px;
   object-fit: cover;
 }
-  audio {
-    width: 100%;
-  }
+
+audio {
+  width: 100%;
+}

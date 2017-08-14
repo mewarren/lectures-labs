@@ -16,10 +16,29 @@ var maze = {
     }
 };
 
+var singLineUno = function () {
+    // I am an expression
+}
 
+function singLineOne (singer) {
+    // var singer = 'Jon';
+    console.log( singer + ': She says, we\'ve got to hold on to what we\'ve got' );
+    singLineTwo(singer);
+}
 
+function singLineTwo (yeller) {
+    console.log( yeller + ': Cause it doesn\'t make a difference if we make it or not' );
+    singLineThree(yeller);
+}
 
+function singLineThree (singer) {
+    console.log( singer + ': We\'ve got each other and that\'s a lot for love' );
+    singLineFour(singer);
+}
 
+function singLineFour (singer) {
+    console.log( singer + ': We\'ll give it a shot  '); 
+}
 
 
 /*  all together now! 
@@ -52,19 +71,18 @@ singLineThree(); // "We've got each other and that's a lot for love
 
 
 
+
+
+
 add a variable "singer" to the first line function
 update all of your consoles to show the singer
 singLineOne(); // "SJ: She say's we've got to hold on to what we've got"
+singLineThree(); // "SJ: ___________"
 
-function singOne () {
+function singOne (singer) {
     var singer = 'SJ';
     console.log( singer + ': line' );
 }
-
-
-
-
-
 
 
 
